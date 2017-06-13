@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<Group fx:id="group" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Canvas height="730.0" width="600.0" />
+      <Rectangle fx:id="r11" arcHeight="5.0" arcWidth="5.0" fill="#d1d1d13a" height="200.0" stroke="DODGERBLUE" strokeType="INSIDE" width="200.0" />
+      <Rectangle fx:id="r12" arcHeight="5.0" arcWidth="5.0" fill="#d1d1d13a" height="200.0" layoutX="200.0" stroke="DODGERBLUE" strokeType="INSIDE" width="200.0" />
+      <Rectangle fx:id="r13" arcHeight="5.0" arcWidth="5.0" fill="#d1d1d13a" height="200.0" layoutX="400.0" stroke="DODGERBLUE" strokeType="INSIDE" width="200.0" />
+      <Rectangle fx:id="r21" arcHeight="5.0" arcWidth="5.0" fill="#d1d1d13a" height="200.0" layoutY="200.0" stroke="DODGERBLUE" strokeType="INSIDE" width="200.0" />
+      <Rectangle fx:id="r22" arcHeight="5.0" arcWidth="5.0" fill="#d1d1d13a" height="200.0" layoutX="200.0" layoutY="200.0" stroke="DODGERBLUE" strokeType="INSIDE" width="200.0" />
+      <Rectangle fx:id="r23" arcHeight="5.0" arcWidth="5.0" fill="#d1d1d13a" height="200.0" layoutX="400.0" layoutY="200.0" stroke="DODGERBLUE" strokeType="INSIDE" width="200.0" />
+      <Rectangle fx:id="r31" arcHeight="5.0" arcWidth="5.0" fill="#d1d1d13a" height="200.0" layoutY="400.0" stroke="DODGERBLUE" strokeType="INSIDE" width="200.0" />
+      <Rectangle fx:id="r32" arcHeight="5.0" arcWidth="5.0" fill="#d1d1d13a" height="200.0" layoutX="200.0" layoutY="400.0" stroke="DODGERBLUE" strokeType="INSIDE" width="200.0" />
+      <Rectangle fx:id="r33" arcHeight="5.0" arcWidth="5.0" fill="#d1d1d13a" height="200.0" layoutX="400.0" layoutY="400.0" stroke="DODGERBLUE" strokeType="INSIDE" width="200.0" />
+      <Label fx:id="label11" alignment="CENTER" contentDisplay="CENTER" prefHeight="200.0" prefWidth="200.0">
+         <font>
+            <Font size="74.0" />
+         </font>
+      </Label>
+      <Label fx:id="label12" alignment="CENTER" contentDisplay="CENTER" layoutX="200.0" prefHeight="200.0" prefWidth="200.0">
+         <font>
+            <Font size="74.0" />
+         </font>
+      </Label>
+      <Label fx:id="label13" alignment="CENTER" contentDisplay="CENTER" layoutX="400.0" prefHeight="200.0" prefWidth="200.0">
+         <font>
+            <Font size="74.0" />
+         </font>
+      </Label>
+      <Label fx:id="label21" alignment="CENTER" contentDisplay="CENTER" layoutY="200.0" prefHeight="200.0" prefWidth="200.0">
+         <font>
+            <Font size="74.0" />
+         </font>
+      </Label>
+      <Label fx:id="label22" alignment="CENTER" contentDisplay="CENTER" layoutX="200.0" layoutY="200.0" prefHeight="200.0" prefWidth="200.0">
+         <font>
+            <Font size="74.0" />
+         </font>
+      </Label>
+      <Label fx:id="label23" alignment="CENTER" contentDisplay="CENTER" layoutX="400.0" layoutY="200.0" prefHeight="200.0" prefWidth="200.0">
+         <font>
+            <Font size="74.0" />
+         </font>
+      </Label>
+      <Label fx:id="label31" alignment="CENTER" contentDisplay="CENTER" layoutY="400.0" prefHeight="200.0" prefWidth="200.0">
+         <font>
+            <Font size="74.0" />
+         </font>
+      </Label>
+      <Label fx:id="label32" alignment="CENTER" contentDisplay="CENTER" layoutX="200.0" layoutY="400.0" prefHeight="200.0" prefWidth="200.0">
+         <font>
+            <Font size="74.0" />
+         </font>
+      </Label>
+      <Label fx:id="label33" alignment="CENTER" contentDisplay="CENTER" layoutX="400.0" layoutY="400.0" prefHeight="200.0" prefWidth="200.0">
+         <font>
+            <Font size="74.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ffb6" height="130.0" layoutY="600.0" stroke="BLACK" strokeType="INSIDE" width="600.0" />
+      <Label fx:id="resultsLabel" alignment="TOP_CENTER" layoutX="7.0" layoutY="600.0" prefHeight="130.0" prefWidth="593.0">
+         <font>
+            <Font size="41.0" />
+         </font>
+      </Label>
+      <Button fx:id="newGame" layoutX="1.0" layoutY="601.0" mnemonicParsing="false" prefHeight="127.0" prefWidth="143.0" text="New Game" />
+   </children>
+</Group>
